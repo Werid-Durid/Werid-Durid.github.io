@@ -452,7 +452,7 @@ code {
   padding: 0 0.1875rem;
   margin: 0 0.125rem;
   border-radius: 0.1875rem;
-  background-color: #f0e8df;
+  background-color: $color-blue;
 }
 @media only screen and (max-width: 414px) {
   .highlight pre {
@@ -462,7 +462,7 @@ code {
 html,
 body {
   color: #555;
-  background-color: #fff;
+  background-color: $color-orange;
   font-size: 100%; /* add PX (or original value) as backup */
   font-size: 100%;
 }
@@ -471,7 +471,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #fff;
+  color: $color-orange;
   background-color: #1999ec;
   transition: all 0.25s;
   cursor: pointer;
@@ -606,11 +606,11 @@ h6 {
   color: #1999ec;
 }
 .post-item-wrapper .date-and-category .categories {
-  color: #fff;
+  color: $color-orange;
   background-color: #1999ec;
 }
 .post-item-wrapper .date-and-category .categories > a {
-  color: #fff;
+  color: $color-orange;
   background-color: #1999ec;
 }
 .post-item-wrapper .tags {
@@ -730,12 +730,12 @@ footer {
 }
 .pagination > li > a {
   color: #1999ec;
-  background-color: #fff;
+  background-color: $color-orange;
   border: 1px solid #1999ec;
   border-radius: 0.1875rem;
 }
 .pagination > li > a:hover {
-  color: #fff;
+  color: $color-orange;
   background-color: #1999ec;
   border: 1px solid #1999ec;
 }
