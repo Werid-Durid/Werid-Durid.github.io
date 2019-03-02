@@ -476,7 +476,7 @@ code {
 }
 html,
 body {
-  color: #e0e0e0;
+  color: #f06807;
   background-color: $color-orange;
   font-size: 100%; /* add PX (or original value) as backup */
   font-size: 100%;
@@ -492,7 +492,7 @@ a:hover {
   cursor: pointer;
 }
 strong {
-  color: #e0e0e0;
+  color: #f06807;
 }
 h1,
 h2,
@@ -500,11 +500,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #e0e0e0;
+  color: #f06807;
 }
 .site-header {
   padding: 2.5rem 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #f06807;
   margin-bottom: 1.875rem;
 }
 .site-header.header-background {
@@ -523,7 +523,7 @@ h6 {
   text-shadow: 1px 1px 2px #171314;
 }
 .site-header .page-title.with-background-image {
-  color: #e0e0e0;
+  color: #f06807;
   padding: 3.125rem 0;
 }
 .site-header .page-title .title {
@@ -550,7 +550,7 @@ h6 {
   border-radius: 0.125rem;
 }
 .site-menu.with-background-image a {
-  color: #e0e0e0;
+  color: #f06807;
 }
 @media only screen and (max-width: 414px) {
   .site-header .page-title.with-background-image {
@@ -571,7 +571,7 @@ h6 {
 }
 .post-item-wrapper {
   padding: 2.1875rem 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #f06807;
   text-align: center;
   overflow: hidden;
 }
@@ -689,7 +689,7 @@ h6 {
 }
 .post-info .info {
   padding: 0 0.5rem;
-  border-right: 1px dotted #e0e0e0;
+  border-right: 1px dotted #f06807;
 }
 .post-info .info:last-child {
   border-right: none;
@@ -731,7 +731,7 @@ h6 {
 }
 footer {
   padding: 2.1875rem 0;
-  border-top: 1px solid #e0e0e0;
+  border-top: 1px solid #f06807;
   font-size: 0.75rem;
   text-align: center;
 }
