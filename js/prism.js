@@ -7,6 +7,10 @@ var _self = (typeof window !== 'undefined')
 		: {}   // if in node js
 	);
 
+
+
+// 这也是一个插件，让代码更好看的插件
+
 /**
  * Prism: Lightweight, robust, elegant syntax highlighting
  * MIT license http://www.opensource.org/licenses/mit-license.php/
