@@ -27,10 +27,7 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
-	/* code{
-		font-size: 30px;
 
-	} */
 /* Wrapper */
 
 	#wrapper {
@@ -1339,17 +1336,16 @@
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					color: #aaa;
+					color: #fff;
 					font-size: 0.8rem;
 					outline: none;
 					padding: 0 2rem;
 				}
 
 					#nav ul.links li a:hover {
-						color: #fff !important;
+						color: inherit !important;
 						background-color: rgba(255, 255, 255, 0.1);
 					}
-					
 				#nav ul.links li.active {
 					color: #000;
 				}
