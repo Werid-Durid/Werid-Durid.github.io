@@ -1866,7 +1866,7 @@
 		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
-		margin: 4rem auto 8rem auto;
+		margin: 2rem auto 4rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
@@ -2266,12 +2266,13 @@
 
 			#main {
 				width: 100%;
-				background-color: #fff;
+				background-color: #ffffff82;
 			}
 
 			.panel {
 				width: 100%;
-				background-color: transparent;
+				/* background-color: transparent; */
+				background-color: #fff0;
 			}
 
 		/* Me */
@@ -2338,7 +2339,7 @@
 					top: 0;
 					width: 100%;
 					height: 100%;
-					margin-left: 3.5em;
+					margin-left: 3em;
 				}
 
 					#me header > h1 {
@@ -2346,7 +2347,7 @@
 						position: absolute;
 						left: 0;
 						bottom: 52.5%;
-						font-size: 3.5rem;
+						font-size: 5rem;
 						margin: 0;
 					}
 
@@ -2357,6 +2358,8 @@
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
+						/* color:#00e7ff; */
+						color:#f00;
 					}
 
 	}
@@ -4293,6 +4296,8 @@
 	}
 	.home-post-info-data{
 		float: right;
+		font-size: 1.5em;
+		font-weight: bold;
 	}
 	.home-post-info-Category{
 
