@@ -2349,6 +2349,8 @@
 						bottom: 52.5%;
 						font-size: 5rem;
 						margin: 0;
+						font-family: unset;
+						font-weight: 700;
 					}
 
 					#me header > p {
