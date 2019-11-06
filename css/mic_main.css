@@ -2360,6 +2360,7 @@
 						margin-top: 0;
 						/* color:#00e7ff; */
 						color:#f00;
+						text-shadow: 6px 5px 15px #f00;
 					}
 
 	}
@@ -4169,8 +4170,8 @@
 /* link_box */
 
 	.link_box {
-		background: #fff;
-		border-radius: 6px;
+		background: #ffffffab;
+		border-radius: 25px;
 		link_box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 		padding-bottom: 2rem;
@@ -4313,6 +4314,9 @@
 		position: relative;
 		width: 100%;
 		height:300px; 
+		border-top-left-radius:25px;
+		border-top-right-radius:25px;
+
 		_height:expression(this.height > 400 ? "400px" : this.height);
 	}
 	.page_title h1{
