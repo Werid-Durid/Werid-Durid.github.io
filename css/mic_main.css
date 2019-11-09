@@ -197,7 +197,7 @@
 				}
 
 		#intro h1 {
-			margin-top: 4rem;
+			margin-top: 8rem;
 			letter-spacing:8px;
 			font-size: 10rem;
 			line-height: 1;
@@ -1344,9 +1344,9 @@
 
 					#nav ul.links li a:hover {
 						color: inherit !important;
-						background-color: rgba(255, 255, 255, 0.5);
+						background-color: rgba(255, 255, 255, 0.1);
 					}
-				/* #nav ul.links li.active {
+				#nav ul.links li.active {
 					color: #000;
 				}
 
@@ -1359,7 +1359,7 @@
 
 						#nav ul.links li.active a:hover {
 							color: #1E90FF !important;
-						} */
+						}
 
 		#nav ul.icons {
 			-moz-flex-grow: 0;
@@ -1856,17 +1856,18 @@
 		}
 
 	#copyright {
+		color: #ffffff;
 		position: relative;
-		color: rgba(0, 0, 0, 0.8);
+		color: rgba(255, 255, 255, 0.25);
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1rem;
+		font-size: 0.8rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
-		margin: 2rem auto 4rem auto;
+		margin: 4rem auto 8rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
@@ -2266,13 +2267,12 @@
 
 			#main {
 				width: 100%;
-				background-color: #ffffff82;
+				background-color: #fff;
 			}
 
 			.panel {
 				width: 100%;
-				/* background-color: transparent; */
-				background-color: #fff0;
+				background-color: transparent;
 			}
 
 		/* Me */
@@ -2339,7 +2339,7 @@
 					top: 0;
 					width: 100%;
 					height: 100%;
-					margin-left: 3em;
+					margin-left: 3.5em;
 				}
 
 					#me header > h1 {
@@ -2347,10 +2347,8 @@
 						position: absolute;
 						left: 0;
 						bottom: 52.5%;
-						font-size: 5rem;
+						font-size: 3.5rem;
 						margin: 0;
-						font-family: unset;
-						font-weight: 700;
 					}
 
 					#me header > p {
@@ -2360,9 +2358,6 @@
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
-						/* color:#00e7ff; */
-						color:#f00;
-						text-shadow: 6px 5px 15px #f00;
 					}
 
 	}
@@ -4172,8 +4167,8 @@
 /* link_box */
 
 	.link_box {
-		background: #ffffffab;
-		border-radius: 25px;
+		background: #fff;
+		border-radius: 6px;
 		link_box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 		padding-bottom: 2rem;
@@ -4299,8 +4294,6 @@
 	}
 	.home-post-info-data{
 		float: right;
-		font-size: 1.5em;
-		font-weight: bold;
 	}
 	.home-post-info-Category{
 
@@ -4316,9 +4309,6 @@
 		position: relative;
 		width: 100%;
 		height:300px; 
-		border-top-left-radius:25px;
-		border-top-right-radius:25px;
-
 		_height:expression(this.height > 400 ? "400px" : this.height);
 	}
 	.page_title h1{

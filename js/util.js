@@ -1,8 +1,6 @@
 (function($) {
 
-
 	/**
-	 * 这个应该是自己写的吧
 	 * Generate an indented list of links from a nav. Meant for use with panel().
 	 * @return {jQuery} jQuery object.
 	 */
