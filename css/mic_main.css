@@ -1856,12 +1856,12 @@
 		}
 
 	#copyright {
-		color: #ffffff;
+		color: #000000;
 		position: relative;
-		color: rgba(255, 255, 255, 0.25);
+		/* color: rgba(255, 255, 255, 0.25); */
 		cursor: default;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 0.8rem;
+		font-size: 1rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		line-height: 1.5;
