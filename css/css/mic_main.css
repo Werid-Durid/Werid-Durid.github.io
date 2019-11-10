@@ -1867,7 +1867,7 @@
 		line-height: 1.5;
 		text-align: center;
 		text-transform: uppercase;
-		margin: 4rem auto 8rem auto;
+		margin: 2rem auto 4rem auto;
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
@@ -2267,12 +2267,13 @@
 
 			#main {
 				width: 100%;
-				background-color: #fff;
+				background-color: #ffffff82;
 			}
 
 			.panel {
 				width: 100%;
-				background-color: transparent;
+				/* background-color: transparent; */
+				background-color: #fff0;
 			}
 
 		/* Me */
@@ -2339,7 +2340,7 @@
 					top: 0;
 					width: 100%;
 					height: 100%;
-					margin-left: 3.5em;
+					margin-left: 3em;
 				}
 
 					#me header > h1 {
@@ -2347,9 +2348,10 @@
 						position: absolute;
 						left: 0;
 						bottom: 52.5%;
-						font-size: 3.5rem;
+						font-size: 5rem;
 						margin: 0;
-					}
+						font-family: unset;
+						font-weight: 700;					}
 
 					#me header > p {
 						position: absolute;
@@ -2358,6 +2360,9 @@
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
+						/* color:#00e7ff; */
+						color:#f00;
+						text-shadow: 6px 5px 15px #f00;
 					}
 
 	}
@@ -4167,8 +4172,8 @@
 /* link_box */
 
 	.link_box {
-		background: #fff;
-		border-radius: 6px;
+		background: #ffffffab;
+		border-radius: 25px;
 		link_box-shadow: 0 2px 0 0 #e5e5e5;
 		margin: 0 0 2em 0;
 		padding-bottom: 2rem;
@@ -4294,6 +4299,8 @@
 	}
 	.home-post-info-data{
 		float: right;
+		font-size: 1.5em;
+		font-weight: bold;
 	}
 	.home-post-info-Category{
 
@@ -4309,6 +4316,10 @@
 		position: relative;
 		width: 100%;
 		height:300px; 
+
+		border-top-left-radius:25px;
+		border-top-right-radius:25px;
+
 		_height:expression(this.height > 400 ? "400px" : this.height);
 	}
 	.page_title h1{
