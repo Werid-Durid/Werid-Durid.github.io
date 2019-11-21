@@ -92,6 +92,20 @@
 	};
 
 	$(function() {
+		$('.realposts').scrollex({
+		top:'30%',
+		bottom:'30%',
+		enter:function() {
+		$(this).css({'background-color':'',"opacity":"1","position":"relative","margin-top":"0px","margin-bottom":"50px"});
+		},
+		leave:function() {
+		$(this).css({'background-color':'',"opacity":"0","margin-bottom":"0px","margin-top":"50px"});
+		}
+		});
+	   });
+
+
+	$(function() {
 
 		var	$window = $(window),
 			$body = $('body'),
@@ -253,6 +267,9 @@
 				});
 
 			}
+
+
+			
 
 	});
 
